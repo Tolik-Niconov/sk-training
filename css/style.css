@@ -1,0 +1,27 @@
+.text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.text:before{
+    content: "\201E";
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    color: red;
+}
+.text:after{
+    content: "\201C";
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    color: red;
+}
+.list{
+    list-style-type: square;
+}
+.fruit:first-child{
+    color: #ff1493;
+}
+.fruit:last-child{
+    color: green;
+    font-style: italic;
+}
