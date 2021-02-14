@@ -1,0 +1,11 @@
+ul{
+    list-style-type: square;
+}
+li:first-child{
+    color: #ff1493;
+    font-weight: bold;
+}
+li:last-child{
+    color: green;
+    font-style: italic;
+}

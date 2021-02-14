@@ -1,0 +1,22 @@
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+q{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    text-transform: none;
+}
+q:before{
+    content: "\201E";
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    color: red;
+}
+q:after{
+    content: "\201C";
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    color: red;
+}
