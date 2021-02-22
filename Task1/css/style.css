@@ -1,0 +1,8 @@
+li{
+    list-style: none;
+}
+li:before{
+    content: '\25ba';
+    padding-right: 5px;
+    color: blueviolet;
+}

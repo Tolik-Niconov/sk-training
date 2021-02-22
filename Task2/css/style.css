@@ -1,0 +1,69 @@
+body{
+    display: flex;
+}
+.container{
+    margin-right: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+    height: 250px;
+
+}
+.red{
+    margin-right: 60px;
+    border-bottom: 80px solid red;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    width: 0;
+    height: 0;
+}
+.red1{
+    border-top: 80px solid red;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    width: 0;
+    height: 0;
+}
+.yellow{
+    margin-right: 60px;
+    width: 0;
+    height: 0;
+    border-top: 80px solid transparent;
+    border-left: 80px solid yellow;
+}
+.yellow1{
+    margin-top: 5px;
+    width: 0;
+    height: 0;
+    border-top: 80px solid transparent;
+    border-right: 80px solid yellow;
+}
+.green{
+    margin-right: 60px;
+    width: 0;
+    height: 0;
+    border-top: 40px solid transparent;
+    border-left: 80px solid greenyellow;
+    border-bottom: 40px solid transparent;
+}
+.green1{
+    width: 0;
+    height: 0;
+    border-top: 40px solid transparent;
+    border-right: 80px solid greenyellow;
+    border-bottom: 40px solid transparent;
+}
+.blue{
+    margin-top: 5px;
+    margin-right: 60px;
+    width: 0;
+    height: 0;
+    border-bottom: 80px solid transparent;
+    border-left: 80px solid blue;
+}
+.blue1{
+    width: 0;
+    height: 0;
+    border-bottom: 80px solid transparent;
+    border-right: 80px solid blue;
+}

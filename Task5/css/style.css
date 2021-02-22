@@ -1,0 +1,17 @@
+.animation{
+    width: 200px;
+    height: 200px;
+    background-color: khaki;
+    border: 2px solid greenyellow;
+    margin: 100px auto;
+     }
+@keyframes animation{
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
+.animation{
+    animation-name: animation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
