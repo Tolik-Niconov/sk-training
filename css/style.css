@@ -70,9 +70,126 @@ p{
 }
 .text__image{
     margin-top: 45px;
+    margin-bottom: 135px;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    opacity: 70%;
+}
+/* Gravity */
+.gravity__image{
+    height: 450px;
+    margin-bottom: 46px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.images{
+    position: absolute;
+    top: 42.78%;
+    left: 46.75%;
+    z-index: 2;
+    
+}
+.images__play{
+    position: absolute;
+    top: 47.75%;
+    left: 49.1%;
+    z-index: 3;
+    width: 20px;
+    height: 20px;
+}
+.explore__gravity{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.text__gravity{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    width: 540px;
+    height: 87;
+    opacity: 70%;
+}
+.btn{
+    background-color: #EF8E70;
+    width: 160px;
+    height: 50px;
+    font-size: 12px;
+    font-family: inherit;
+    padding: 18px 0 18px;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.explore__gravity:after{
+    content: "";
+    margin: 160px 0 62px 0;
+    width: 1110px;
+    border-bottom: 1px solid black;
+    opacity: .2;
+}
+/* Awwwards */
+.awwwards{
+    display: flex;
+    margin-bottom: 122px;
+    
+}
+
+.awwwards__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.awwwards__logo{
+    margin-bottom: 220px;
+}
+.awwwards__box{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 644px;
+
+}
+.awwwards__title{
+    margin-right: 65px;
+    width: 230px;
+    height: 32px;
+    font-size: 22px;
+    font-weight: 500;
+    font-style: normal;
+}
+.awwwards__example{
+    margin-top: 100px;
+}
+.awwwards__subtitle{
+    margin-bottom: 13px;
+    width: 255px;
+    height: 27px;
+    font-size: 14px;
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 4px;
+}
+.awwwards__text{
+    width: 230px;
+    height: 84px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: 70%;
+}
+
+.awwwards__years{
+    margin-left: 55px;
+    margin-bottom: 10px;
     font-size: 18px;
     font-weight: 400;
 }
-.intro__video{
-    position: relative;
-}
+/* Footer */
