@@ -1,5 +1,6 @@
 body{
     font-family: 'Fira Sans', sans-serif;
+    background-color: #E5E5E5;
     color: black;
     margin: 0;
 }
@@ -192,4 +193,80 @@ p{
     font-size: 18px;
     font-weight: 400;
 }
-/* Footer */
+/* Team */
+.team{
+    background-color: #FAFAFA;
+}
+.team__inner{
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+}
+.team__title{
+    width: 260px;
+    margin-top: 102px;
+    font-size: 40px;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: -1px;
+}
+.team__text{
+    width: 445px;
+    margin-top: 28px;
+    margin-left: 42px;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    opacity: 70%;
+}
+.team__text:after{
+    content: "— We worked with";
+    position: absolute;
+    top: 2765px;
+    left: 1030px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+.team__subtext{
+    width: 445px;
+    margin-bottom: 82px;
+    margin-top: 146px;
+    font-size: 18px;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    opacity: 70%;
+}
+.xiaomi__item{
+    position: relative;
+    opacity: 50%;
+}
+.xiaomi{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+.vector__item{
+    opacity: 50%;
+}
+.apple__item{
+    position: relative;
+    opacity: 50%;
+}
+.apple{
+    position: absolute;
+    top: -20%;
+    right: 25%;
+}
+.box__item{
+    position: relative;
+    opacity: 50%;
+}
+.box{
+    position: absolute;
+    left: 10%;
+    top: -20%;
+}
