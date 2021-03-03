@@ -1,0 +1,113 @@
+.container{
+    font-family: 'Open Sans', sans-serif;
+    display: grid;
+    padding: 32px 48px 68px;
+    background-color: #F6F7FA;
+    height: 1176px;
+    width: 1344px;
+    grid-template: repeat(5, 1fr) / 1fr 1fr;
+    gap: 64px 24px;
+}
+.grid__dark{
+    display: grid;
+    width: 660px;
+    height: 184px;
+    background: linear-gradient(90.02deg, #25335A 0.02%, #141824 113.01%);
+    border-radius: 16px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 92px 92px;
+}
+.grid__white{
+    display: grid;
+    width: 660px;
+    height: 184px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 92px 92px;
+}
+.grid__suptitle{
+    display: grid;
+    justify-items: start;
+    padding-left: 40px;
+    align-items: end;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+    line-height: 32px;
+    text-align: start;
+}
+.suptitle--white{
+    display: grid;
+    justify-items: start;
+    padding-left: 40px;
+    align-items: end;
+    font-size: 24px;
+    font-weight: 400;
+    color: #B65741;
+    line-height: 32px;
+    text-align: start;
+}
+.grid__title{
+    grid-column-start: 1;
+    grid-row-start: 2;
+    font-size: 32px;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    line-height: 32px;
+}
+.title--white{
+    grid-column-start: 1;
+    grid-row-start: 2;
+    font-size: 32px;
+    text-align: center;
+    color: #AD4328;
+    font-weight: 400;
+    line-height: 32px;
+}
+.grid__image{
+    width: 232px;
+    height: 200px;
+    padding: 20px 0 0 40px;
+}
+.white--image{
+    width: 330px;
+    height: 216px;
+    padding: 15px 0 0 0;
+
+}
+.grid__image2{
+    width: 240px;
+    height: 220px;
+    padding-left: 50px;
+}
+.white--image2{
+    width: 240px;
+    height: 220px;
+    padding: 0;
+    padding-left: 40px;
+}
+
+.grid__image3{
+    width: 220px;
+    height: 215px;
+    padding-left: 70px;
+}
+.white--image3{
+    width: 220px;
+    height: 215px;
+    padding: 0;
+    padding-left: 60px;
+}
+.grid__image4{
+    width: 250px;
+    height: 250px;
+    padding: 0;
+    padding-left: 50px;
+}
+.grid__image5{
+    width: 250px;
+    height: 250px;
+    padding: 0;
+}
